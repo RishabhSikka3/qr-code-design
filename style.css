@@ -48,8 +48,8 @@ h6 {
 .container .card {
   background-color: var(--white);
   padding: 16px;
-  height: 499px;
-  width: 320px;
+  width: 100%;
+  max-width: 320px;
   border: none;
   border-radius: 10px;
   display: flex;
@@ -66,9 +66,13 @@ h6 {
   justify-content: flex-start;
   align-items: center;
   gap: 24px;
+  margin-bottom: 24px;
 }
 
 .container .card img {
+  width: 100%;
+  max-width: 288px;
+  height: auto;
   border: none;
   border-radius: 10px;
 }
