@@ -32,7 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties (variables)
 - Flexbox
 - Mobile-first responsive design
-- BEM naming convention (optional if you used it)
+- BEM naming convention
 
 ### What I learned
 
