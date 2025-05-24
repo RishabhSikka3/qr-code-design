@@ -6,6 +6,7 @@
   --slate-500: hsl(216, 15%, 48%);
   --slate-300: hsl(212, 45%, 89%);
   --slate-900: hsl(218, 44%, 22%);
+  --shadow-color: #0000000c;
   --font-bold-line-height: 120%;
   --font-regular-line-height: 140%;
 }
@@ -23,6 +24,7 @@ body {
   font-size: 15px;
   font-weight: var(--font-weight-regular);
   line-height: var(--font-regular-line-height);
+  letter-spacing: 0.2px;
 }
 
 h1,
@@ -58,6 +60,7 @@ h6 {
   align-items: center;
   gap: 24px;
   text-align: center;
+  box-shadow: 0px 25px 25px 0px var(--shadow-color);
 }
 
 .container .card .card-content {
