@@ -1,0 +1,80 @@
+:root {
+  --font-outfit: "Outfit", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --white: hsl(0, 0%, 100%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-900: hsl(218, 44%, 22%);
+  --font-bold-line-height: 120%;
+  --font-regular-line-height: 140%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--slate-300);
+  color: var(--slate-500);
+  font-family: var(--font-outfit);
+  font-size: 15px;
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-regular-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--slate-900);
+  font-size: 22px;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--font-bold-line-height);
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card {
+  background-color: var(--white);
+  padding: 16px;
+  height: 499px;
+  width: 320px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.container .card .card-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.container .card img {
+  border: none;
+  border-radius: 10px;
+}
+
+@media (max-width: 375px) {
+  .container .card {
+    margin: 2rem;
+  }
+}
